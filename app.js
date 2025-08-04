@@ -2,6 +2,7 @@
 
 let numeroSecreto = 4;
 let numeroUsuario = 0;
+let intentos= 1 ;
 while (numeroUsuario != numeroSecreto) {
   numeroUsuario = Number(prompt("Me indicas un número entre 1 y 10 por favor:"));
   console.log(numeroUsuario);
@@ -27,4 +28,5 @@ if (numeroUsuario == numeroSecreto){
     //alert('Lo siento, no acertaste el numero');
     }
  }
+
 
